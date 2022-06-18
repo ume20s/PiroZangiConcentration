@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightPirosOrange"
+    tools:context=".MainActivity3">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/v31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCombo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Combo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/txtScore"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Score3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/txtHighScore"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/HighScore3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/PlainBase3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/LightPirosOrange"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="@id/v31"
+        app:layout_constraintBottom_toTopOf="@id/v32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plain" />
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/v32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/v31">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn3_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/v33">
+
+        <ImageView
+            android:id="@+id/Miss3_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss3_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/GameEnd3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/LightPirosOrange"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/v32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/v31"
+        app:srcCompat="@drawable/clear_stage3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

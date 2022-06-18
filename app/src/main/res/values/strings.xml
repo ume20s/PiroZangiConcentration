@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PiroZangiConcentration</string>
+    <string name="txtCard">card</string>
+    <string name="txtCombo">Combo : </string>
+    <string name="txtScore">Score : </string>
+    <string name="txtHighScore">HighScore : </string>
+</resources>

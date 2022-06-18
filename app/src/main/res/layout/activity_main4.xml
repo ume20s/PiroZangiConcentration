@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightPirosOrange"
+    tools:context=".MainActivity4">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/v41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCombo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Combo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/txtScore"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Score4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/txtHighScore"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/HighScore4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/PlainBase4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/LightPirosOrange"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="@id/v41"
+        app:layout_constraintBottom_toTopOf="@id/v42"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plain" />
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/v42"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/v41">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+            <ImageButton
+                android:id="@+id/ImgBtn4_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/LightPirosOrange"
+                android:contentDescription="@string/txtCard"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                app:srcCompat="@drawable/card" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/v43">
+
+        <ImageView
+            android:id="@+id/Miss4_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+
+        <ImageView
+            android:id="@+id/Miss4_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:padding="2dp"
+            app:srcCompat="@drawable/miss" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/GameEnd4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/LightPirosOrange"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/v42"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/v41"
+        app:srcCompat="@drawable/clear_stage4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
